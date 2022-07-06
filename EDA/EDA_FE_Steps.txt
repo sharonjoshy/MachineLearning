@@ -147,3 +147,6 @@ lower_lim = data['column'].quantile(.05)
 
 data.loc[(df[column] > upper_lim),column] = upper_lim
 data.loc[(df[column] < lower_lim),column] = lower_lim
+
+
+This is the end of the line
